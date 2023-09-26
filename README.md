@@ -1,47 +1,76 @@
-# sql_backend_project
-Database for sales project from JetBrains academy SQL For Backend Developer course
 
-**Simple Banking System**
+# Simple Banking System
 
-**README.txt**
+The Simple Banking System is a command-line Python application that simulates basic banking operations. Users can create accounts, check balances, add income, perform money transfers, and close accounts. The application stores data in an SQLite database.
 
-**Introduction**
+## Table of Contents
 
-This is a simple banking system written in Python. It uses a SQLite3 database to store account information. The system allows users to create accounts, log in to their accounts, check their balance, deposit money, withdraw money, and transfer money to other accounts.
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Usage**
+## Installation
 
-To use the system, simply run the `main.py` file. The system will prompt you to choose one of the following options:
+Before using this Simple Banking System, ensure you have Python 3.x installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
 
-1. Create an account
-2. Log into account
-3. Exit
+1. Clone this repository to your local machine:
 
-If you choose to create an account, the system will generate a random card number and PIN for you. You will need to provide these credentials to log in to your account.
+   ```bash
+   git clone https://github.com/yourusername/simple-banking-system.git
+   ```
 
-If you choose to log in to your account, you will need to enter your card number and PIN. If the credentials are correct, you will be logged in to your account.
+2. Navigate to the project directory:
 
-Once you are logged in to your account, you can choose from the following options:
+   ```bash
+   cd simple-banking-system
+   ```
+
+3. Run the application:
+
+   ```bash
+   python banking.py
+   ```
+
+## Features
+
+- Create a bank account with a card number and PIN.
+- Check your account balance.
+- Add income to your account.
+- Perform money transfers to other accounts.
+- Close your bank account.
+
+## Usage
+
+Upon running the application, you will be presented with the following options:
+
+1. Create an account: Generates a new bank account with a unique card number and PIN. You can use this account for various banking operations.
+
+2. Log into account: Log in to an existing account using your card number and PIN. Once logged in, you can check your balance, add income, perform transfers, or close your account.
+
+3. Exit: Close the application.
+
+When logged into your account, you can perform the following actions:
 
 1. Balance: Check your account balance.
-2. Add income: Deposit money into your account.
-3. Do transfer: Transfer money to another account.
-4. Close account: Delete your account.
-5. Log out: Log out of your account.
-6. Exit: Exit the system.
 
-**Requirements**
+2. Add income: Add money to your account balance.
 
-To run the system, you will need to have Python 3 and SQLite3 installed on your system.
+3. Do transfer: Transfer money to another bank account.
 
-**Installation**
+4. Close account: Close your bank account and remove it from the system.
 
-To install the system, simply clone the repository and run the `main.py` file.
+5. Log out: Log out of your account and return to the main menu.
 
-**License**
+## Contributing
 
-The system is licensed under the MIT License.
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or create a pull request on GitHub.
 
-**Contributing**
+## License
 
-If you would like to contribute to the system, please feel free to submit pull requests.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+You can customize this README to include more specific details about your project or additional sections as needed.
